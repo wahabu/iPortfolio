@@ -1,4 +1,5 @@
 import { site } from '../../content/site'
+import { Hero } from '../sections/Hero'
 
 export function PageShell() {
   return (
@@ -6,7 +7,9 @@ export function PageShell() {
       <header>
         <p>{site.name}</p>
       </header>
-      <main />
+      <main>
+        <Hero />
+      </main>
     </>
   )
 }
