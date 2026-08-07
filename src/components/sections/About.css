@@ -1,0 +1,39 @@
+.about {
+  padding: 7rem 1.5rem;
+}
+
+.about__inner {
+  width: min(100%, 1100px);
+  margin-inline: auto;
+}
+
+.about__eyebrow {
+  margin: 0 0 1rem;
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.about h2 {
+  max-width: 700px;
+  margin: 0;
+  font-size: clamp(2.25rem, 5vw, 4rem);
+  line-height: 1.05;
+  letter-spacing: -0.04em;
+}
+
+.about__body {
+  max-width: 720px;
+  margin-top: 2rem;
+}
+
+.about__body p {
+  margin: 0;
+  font-size: clamp(1.125rem, 2vw, 1.25rem);
+  line-height: 1.7;
+}
+
+.about__body p + p {
+  margin-top: 1.5rem;
+}
