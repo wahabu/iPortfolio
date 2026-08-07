@@ -1,0 +1,46 @@
+.project-card {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 2rem;
+    margin-top: 3rem;
+    padding-block: 2rem;
+    border-top: 1px solid #cbd5e1;
+    border-bottom: 1px solid #cbd5e1;
+  }
+  
+  .project-card__number {
+    margin: 0;
+    font-weight: 700;
+  }
+  
+  .project-card h3 {
+    margin: 0;
+    font-size: clamp(1.75rem, 3vw, 2.5rem);
+  }
+  
+  .project-card p {
+    max-width: 650px;
+    line-height: 1.7;
+  }
+
+  .project-card__role {
+    margin-top: 1.5rem;
+    font-weight: 700;
+  }
+  
+  .project-card__stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 1.5rem 0 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .project-card__stack li {
+    padding: 0.4rem 0.75rem;
+    border: 1px solid #cbd5e1;
+    border-radius: 999px;
+    font-size: 0.875rem;
+    font-weight: 600;
+  }
