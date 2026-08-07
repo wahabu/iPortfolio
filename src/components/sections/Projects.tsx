@@ -1,10 +1,8 @@
-import { projects } from '../../content/projects'
-import './Projects.css'
-import { ProjectCard } from '../ui/ProjectCard/ProjectCard'
+import { projects } from "../../content/projects";
+import { ProjectCard } from "../ui/ProjectCard/ProjectCard";
+import "./Projects.css";
 
 export function Projects() {
-  const project = projects[0]
-
   return (
     <section className="projects" id="projects">
       <div className="projects__inner">
@@ -12,8 +10,12 @@ export function Projects() {
 
         <h2>Projects built around real problems.</h2>
 
-        <ProjectCard project={project} index={1} />
+        <div className="projects__list">
+          {projects.map((project, index) => (
+            <ProjectCard key={project.id} project={project} index={index + 1} />
+          ))}
+        </div>
       </div>
     </section>
-  )
+  );
 }
