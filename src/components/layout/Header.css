@@ -1,0 +1,36 @@
+.site-header {
+    padding: 1.5rem;
+  }
+  
+  .site-header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: min(100%, 1100px);
+    margin-inline: auto;
+  }
+  
+  .site-header__brand {
+    color: inherit;
+    font-size: 1.125rem;
+    font-weight: 800;
+    text-decoration: none;
+  }
+  
+  .site-header__nav {
+    display: flex;
+    gap: 1.5rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .site-header__nav a {
+    color: inherit;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  
+  .site-header__nav a:hover {
+    text-decoration: underline;
+  }

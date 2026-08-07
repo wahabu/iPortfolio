@@ -1,12 +1,11 @@
-import { site } from '../../content/site'
+import { Header } from './Header'
 import { Hero } from '../sections/Hero'
 
 export function PageShell() {
   return (
     <>
-      <header>
-        <p>{site.name}</p>
-      </header>
+      <Header />
+
       <main>
         <Hero />
       </main>
