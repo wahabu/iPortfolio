@@ -4,11 +4,11 @@ import "./Projects.css";
 
 export function Projects() {
   return (
-    <section className="projects" id="projects">
+    <section className="projects" id="projects" aria-labelledby="projects-title">
       <div className="projects__inner">
         <p className="projects__eyebrow">Selected Work</p>
 
-        <h2>Projects built around real problems.</h2>
+        <h2 id="projects-title">Projects built around real problems.</h2>
 
         <div className="projects__list">
           {projects.map((project, index) => (

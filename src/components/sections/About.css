@@ -1,5 +1,5 @@
 .about {
-  padding: 7rem 1.5rem;
+  padding: clamp(4rem, 12vw, 7rem) 1.5rem;
 }
 
 .about__inner {

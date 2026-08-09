@@ -44,3 +44,10 @@
     font-size: 0.875rem;
     font-weight: 600;
   }
+
+@media (max-width: 480px) {
+  .project-card {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}

@@ -32,6 +32,7 @@ export function Contact() {
                 href={site.github}
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="GitHub (opens in new tab)"
               >
                 GitHub
               </a>
