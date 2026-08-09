@@ -29,8 +29,7 @@ to deployment.
 ## Selected Projects
 
 1. Knowledge Hub
-2. iFamily Meet
-3. JLPT Mondai
+2. JLPT Mondai
 
 ## Non-Goals for Version 1
 
