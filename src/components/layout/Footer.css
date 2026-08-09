@@ -1,0 +1,14 @@
+.site-footer {
+  padding: 2rem 1.5rem;
+  border-top: 1px solid #cbd5e1;
+}
+
+.site-footer__inner {
+  width: min(100%, 1100px);
+  margin-inline: auto;
+}
+
+.site-footer p {
+  margin: 0;
+  font-size: 0.875rem;
+}
