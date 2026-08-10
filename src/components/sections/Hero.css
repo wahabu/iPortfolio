@@ -38,3 +38,10 @@
     gap: 1rem;
     margin-top: 2.5rem;
   }
+
+@media (min-width: 768px) {
+  .hero {
+    min-height: clamp(36rem, 72svh, 52rem);
+    padding-bottom: clamp(2.5rem, 6vh, 4rem);
+  }
+}
