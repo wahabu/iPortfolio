@@ -62,7 +62,7 @@
 
 @media (min-width: 768px) {
   .hero {
-    min-height: clamp(36rem, 72svh, 52rem);
+    min-height: clamp(32rem, 60svh, 42rem);
     padding-bottom: clamp(2.5rem, 6vh, 4rem);
   }
 
